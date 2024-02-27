@@ -1,0 +1,82 @@
+/* Estilos gerais */
+
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+header, main, section, footer {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Estilos para o carrossel de imagens */
+#carousel {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    width: 100%;
+}
+
+.carousel-image {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.carousel-image {
+    display: none;
+    width: 100%;
+}
+
+.carousel-image:first-child {
+    display: block;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+ /* Adiciona um padding vertical para dar mais espaço */
+}
+
+
+
+/* Estilos responsivos para dispositivos móveis */
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    h1, h2 {
+        font-size: 1.5em;
+    }
+}
