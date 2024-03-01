@@ -7,6 +7,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    background-image: url("https://img.freepik.com/fotos-premium/papel-de-parede-do-fundo-das-aliancas-de-casamento_492154-12827.jpg?w=360");
+    background-size: cover;
+}
+
+.container {
+    width: 90%;
+    margin: auto; /* Adiciona uma margem automática nos dois lados */
 }
 
 
